@@ -123,3 +123,5 @@ retriever = vector_store.as_retriever(search_type="similarity_score_threshold", 
 
 This Streamlit app integrates LangChain's agent-based LLM processing with tools for web scraping, document retrieval, similarity search, and contextual chat history. It can easily be extended with additional tools, custom models, or more sophisticated document processing workflows.
 
+
+**Feel free to Contribute**
