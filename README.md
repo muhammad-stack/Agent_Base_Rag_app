@@ -1,4 +1,4 @@
-# LLM-Powered Prompt Handler - ReadMe
+# LLM-Powered Prompt Handler 
 
 This project creates a **Streamlit-based web application** that allows users to input a prompt, which is then processed by a **Large Language Model (LLM)** using **LangChain** and related tools such as FAISS for similarity search, web scraping, and more. The system integrates various components to search the web, retrieve documents, process input, and handle conversations with context, ultimately providing relevant responses to user prompts.
 
@@ -37,8 +37,12 @@ It utilizes OpenAI-like models to process user prompts and return dynamic respon
 ```bash
 git clone <repository_url>
 ```
+### 2. Run the Container
+```
+docker run 
+```
 
-### 2. Install Required Dependencies
+### 3. Install Required Dependencies
 Ensure you have Python installed. Then, install the required packages by running:
 ```bash
 poetry install
