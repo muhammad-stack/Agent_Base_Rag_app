@@ -37,18 +37,22 @@ It utilizes OpenAI-like models to process user prompts and return dynamic respon
 ```bash
 git clone <repository_url>
 ```
-### 2. Run the Container
+### 2. Build the image
 ```
-docker run 
+docker build -t <image_name> .
+```
+### 3 . Run the container
+```
+docker run -d --name <container_name> <image_name>
 ```
 
-### 3. Install Required Dependencies
+### 4. Install Required Dependencies
 Ensure you have Python installed. Then, install the required packages by running:
 ```bash
 poetry install
 ```
 
-### 3. Set Up Environment Variables
+### 5. Set Up Environment Variables
 Create a `.env` file in the project root with the necessary API keys and model configurations:
 ```bash
 GEMINI_API_KEY=<your_gemini_key>
