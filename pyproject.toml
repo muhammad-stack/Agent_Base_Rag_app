@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "agent-base-rag-app"
+version = "0.1.0"
+description = ""
+authors = ["muhammad-stack <142173430+muhammad-stack@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+langchain-core = "^0.3.12"
+langchain-community = "^0.3.2"
+langsmith = "^0.1.136"
+
+langchain-google-genai = "^2.0.1"
+python-dotenv = "^1.0.1"
+beautifulsoup4 = "^4.12.3"
+faiss-cpu = "^1.9.0"
+streamlit = "^1.39.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
